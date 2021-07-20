@@ -1,0 +1,101 @@
+.topnav{
+    background-color: #5D80DC;
+    overflow:hidden;
+    position: sticky;
+}
+
+.topnav a {
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    top: ;left:-170px;
+    float:right;
+    color:rgb(255, 255, 255) ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*change the color of link on hover */
+
+.topnav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #59ade6;
+}
+.topnav prof:hover{
+    background-color: rgb(255, 255, 255);
+    color: #59ade6; 
+}
+
+/* add a color to the active/current link */
+
+.topnav a.active{
+    background-color:#5D80DC;
+    color: white;
+}
+
+
+#search{
+   stroke:aqua;
+}
+/* #search:hover{
+    background-color: rgb(115, 84, 202);
+    caret-color: white;
+} */
+
+.topnav input[type=text]{
+    position: sticky;
+    position: relative;
+    top: ; left:-200px;
+    float:right;
+    padding: 7px 55px ;
+    border:white;
+    margin-top: 8px;
+    margin-right: 16;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float:left;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+.topnav b{
+   color: rgb(255, 255, 255);
+   position: relative;
+   top:7px; left:20px;
+   font-size: 32px;
+   font-family: riffic;
+   font-weight: 100;
+  }
+  ::placeholder{
+      color: #5D80DC;
+      text-align:left;
+      
+  }
+.topnav prof{
+    position: relative;
+    top: ;left:500px;
+    float:right;
+    color:rgb(255, 255, 255) ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Telex;
+}
+  /* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
